@@ -1,0 +1,1 @@
+SELECT e.unique_id,i.name FROM Employees i LEFT JOIN EmployeeUNI e ON i.id=e.id;
